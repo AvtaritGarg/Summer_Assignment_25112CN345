@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 int main(){
-    long long i;
-    int setBits=0;
-    long long n;
+    int i,setBits=0,n;
 
-    printf("Enter a binary number to count its set bits: ");
+    printf("Enter a binary number to count its set bits(upto 8 digits): ");
     scanf("%lld", &n);
 
     for(i=n;i>0;i=i/10){
